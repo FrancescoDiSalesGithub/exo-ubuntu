@@ -8,4 +8,4 @@ else
     python3 -m venv .venv
 fi
 source .venv/bin/activate
-pip install -e .
+pip install -e --break-system-packages .
