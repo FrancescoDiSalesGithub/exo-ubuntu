@@ -9,4 +9,4 @@ else
 fi
 source .venv/bin/activate
 pip install  --break-system-packages .
-apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
+apt-get update && apt-get -y install ffmpeg libsm6 libxext6  
